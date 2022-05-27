@@ -7,7 +7,7 @@
 body {
     display: flex;
     justify-content: center;    
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(33, 59, 175, 0.836);
 }
 
 .guest-form {
@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     margin: 50px;
     padding: 20px;    
-    background-color: rgb(126, 171, 223);
+    background-color: rgb(248, 248, 248);
     border-radius: 10px;
 }
 
@@ -41,4 +41,6 @@ input {
     font-size: 18px;
     border: none;
     padding: 5px;
+    border-bottom: 1px solid blueviolet ;
+    border-radius: 5px;
 }
