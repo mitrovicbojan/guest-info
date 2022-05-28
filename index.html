@@ -8,44 +8,46 @@
     <title>Guest Information Form</title>
 </head>
 <body>
-   <div class="guest-form">
-       <h1>Guest information form</h1>
-       <div class="guest-details">
-           <label>First Name
-               <input type="text" placeholder="First Name">
-           </label>
-           <label>Middle Name
-            <input type="text" placeholder="Middle Name">
+   <form action="POST" data-netlify="true"> 
+    <div class="guest-form">
+        <h1>Guest information form</h1>
+        <div class="guest-details">
+            <label>First Name
+                <input type="text" name="First Name" placeholder="First Name">
             </label>
-            <label>Surname
-                <input type="text" placeholder="Surname">
-            </label>
-            <label>Passport number
-                <input type="text" placeholder="Passport Number">
-            </label>
-            <label>Expiry Date
-                <input type="text" placeholder="Expary Date">
-            </label>
-            <label>Date of birth
-                <input type="text" placeholder="Date of Birth">
-            </label>
-            <label>Email
-                <input type="email" placeholder="Email">
-            </label>
-            <label>Phone Number
-                <input type="number" placeholder="Phone Number">
-            </label>
-            <label>Have you been vaccinated?
-                <input type="text" placeholder="Yes/No">
-            </label>
-            <label>Remarks:
-                <textarea></textarea>
-            </label>
-       </div>
-       <button type="submit">Submit</button>
-       <a>
-        <li>hi there</li>
-       </a>
-   </div> 
+            <label>Middle Name
+                <input type="text" name="Middle Name" placeholder="Middle Name">
+                </label>
+                <label>Surname
+                    <input type="text" name="Surname" placeholder="Surname">
+                </label>
+                <label>Passport number
+                    <input type="number" name="Passport Number" placeholder="Passport Number">
+                </label>
+                <label>Expiry Date
+                    <input type="date" name="Passport Expiry Date" placeholder="Expary Date">
+                </label>
+                <label>Date of birth
+                    <input type="date" name="Date of Birth" placeholder="Date of Birth">
+                </label>
+                <label>Email
+                    <input type="email" name="Email" placeholder="Email">
+                </label>
+                <label>Phone Number
+                    <input type="number" name="Phone Number" placeholder="Phone Number">
+                </label>
+                <label>Have you been vaccinated?
+                    <input type="text" name="Vaccinated" placeholder="Yes/No">
+                </label>
+                <label>Remarks:
+                    <textarea name="Message"></textarea>
+                </label>
+        </div>
+        <button type="submit">Submit</button>
+        <a>
+            <li>links</li>
+        </a>
+        </div> 
+    </form>
 </body>
 </html>
