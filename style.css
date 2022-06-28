@@ -83,3 +83,17 @@ button:hover {
   color: rgba(33, 59, 175, 0.836);
   transition: 0.3s ease-in-out;
 }
+
+a li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 3px;
+  margin: 5px;
+  color: rgba(33, 59, 175, 0.836);
+}
+
+a li:hover {
+  color: black;
+}
