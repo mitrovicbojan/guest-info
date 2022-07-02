@@ -97,3 +97,21 @@ a li {
 a li:hover {
   color: black;
 }
+
+.thanks {
+  background-image: url("summmer.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.thanks .tnxtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 5rem;
+}

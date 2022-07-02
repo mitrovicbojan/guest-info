@@ -8,8 +8,13 @@
     <title>Guest Information Form</title>
   </head>
   <body>
-    <form action="POST" data-netlify="true">
+    <form action="https://formsubmit.co/string/in/email/" method="POST">
       <div class="guest-form">
+        <input
+          type="hidden"
+          name="_next"
+          value="https://guestinfo.netlify.app//thankyou.html"
+        />
         <h1>Guest information form</h1>
         <div class="guest-details">
           <label
